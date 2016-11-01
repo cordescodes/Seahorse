@@ -122,7 +122,6 @@ int whatChessman(uint64_t loc)
     }
 }
 
-
 char numToAlgFile(char File)
 {
     if (File == 0) {
@@ -425,9 +424,6 @@ int main()
     newGame();
     moves = Moves(); // Instance of class to find every possible move
     searching = Search(); // Instance of class to find best move
-
-    //Perft testPerft = Perft();
-    //std::cout << "THE MOMENT OF TRUTH: " << testPerft.startPerft(WP, WR, WN, WB, WQ, WK, BP, BR, BN, BB, BQ, BK, EP, WKC, WQC, BKC, BQC, true, 5) << std::endl;
 
     gameLoop();
 
