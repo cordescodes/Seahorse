@@ -8,4 +8,4 @@ Seahorse currently searches to a depth of 5 and only uses piece values for evalu
 Seahorse does not support searching to a specific depth or the use of time controls.
 
 ### Usage
-A 64-bit Windows executable is available in the `bin\Debug` folder.
+A 32-bit Windows executable is available in the `bin\Debug` folder. Seahorse is built in the MinGW environment and requires the presence of the libstdc++-6.dll package (also found in the `bin\Debug` folder) in the same directory as the executable.
